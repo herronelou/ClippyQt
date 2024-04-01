@@ -87,7 +87,6 @@ class Agent(QtWidgets.QWidget):
         """ Play a random idle animation. """
         idle_animations = [name for name in self._config['animations'] if name.startswith('Idle')]
         anim = random.choice(idle_animations)
-        print('Playing idle:', anim)
         self.play(anim)
 
     def gesture_at(self, position):
@@ -132,7 +131,6 @@ class Agent(QtWidgets.QWidget):
         current_frame = self._current_animation['frames'][self._current_frame]
 
         if self._stopping and current_frame.get('exitBranch', False):
-            self._stopping = False
             next_frame = current_frame['exitBranch']
         elif current_frame.get('branching', False):
             # Pick a random branch based on the weights of each possible branch
@@ -226,7 +224,6 @@ class Agent(QtWidgets.QWidget):
             sound_name, ext = os.path.splitext(wav_file)
             if ext != '.wav':
                 continue
-            print('Loading sound:', sound_name, wav_file)
             self._sounds[sound_name] = QtMultimedia.QSound(os.path.join(sounds, wav_file))
 
     def _play_sound(self):
@@ -239,11 +236,8 @@ class Agent(QtWidgets.QWidget):
 
     def _get_direction(self, position, granular=True):
         """ Get a direction based on a position on the screen. """
-        print('position:', position, self.mapToGlobal(self.rect().center()))
         direction = position - self.mapToGlobal(self.rect().center())
-        print('direction:', direction)
         angle = (180 * math.atan2(direction.y(), direction.x())) / math.pi
-        print('angle:', angle)
         if granular:
             if -22.5 < angle <= 22.5:
                 return 'Left'

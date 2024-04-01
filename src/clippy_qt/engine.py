@@ -28,10 +28,10 @@ class ClippyEngine(QtWidgets.QDialog):
     def init_ui(self):
         self.setWindowFlags(QtCore.Qt.Tool | QtCore.Qt.FramelessWindowHint)
         self.setAttribute(QtCore.Qt.WA_TranslucentBackground)
-        # self.setAttribute(QtCore.Qt.WA_TransparentForMouseEvents)
-        self.setWindowFlag(QtCore.Qt.WindowStaysOnTopHint)
+        # self.setWindowFlag(QtCore.Qt.WindowStaysOnTopHint)  # Not needed if setting parent
         self.setWindowFlag(QtCore.Qt.WindowDoesNotAcceptFocus)
-        # self.setWindowFlag(QtCore.Qt.WindowTransparentForInput)
+        # Delete on close
+        self.setAttribute(QtCore.Qt.WA_DeleteOnClose)
 
         layout = QtWidgets.QVBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
@@ -52,7 +52,6 @@ class ClippyEngine(QtWidgets.QDialog):
 
     # Allow moving the dialog by clicking and dragging the agent
     def mousePressEvent(self, event):
-        print('mousePressEvent')
         self._old_pos = event.globalPos()
         self._old_rect = self.frameGeometry()
         self._mouse_pressed = True
@@ -76,6 +75,9 @@ class ClippyEngine(QtWidgets.QDialog):
 
     def resizeEvent(self, event):
         old_size = event.oldSize()
+        if old_size == QtCore.QSize(-1, -1):
+            # This is the first resize event, ignore it
+            return
         new_size = event.size()
         # Move the widget to keep the bottom right corner in the same place
         offset = QtCore.QPoint(old_size.width() - new_size.width(), old_size.height() - new_size.height())
@@ -95,7 +97,12 @@ class ClippyEngine(QtWidgets.QDialog):
         self.agent.play('Greeting', callback=self.balloon.show)
 
     def hide(self):
+        self.balloon.hide()
         self.agent.play('GoodBye', callback=super(ClippyEngine, self).hide)
+
+    def close(self):
+        self.balloon.hide()
+        self.agent.play('GoodBye', callback=super(ClippyEngine, self).close)
 
 
 if __name__ == '__main__':

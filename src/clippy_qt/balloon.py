@@ -18,7 +18,6 @@ class Balloon(QtWidgets.QWidget):
         layout = self._internal_layout
         while layout.count():
             child = layout.takeAt(0)
-            print(child)
             widget = child.widget()
             if widget is not None:
                 widget.setParent(None)
