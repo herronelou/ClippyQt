@@ -1,0 +1,6399 @@
+{
+    "overlayCount": 1,
+    "sounds": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+    ],
+    "framesize": [
+        124,
+        93
+    ],
+    "animations": {
+        "Congratulate": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 1
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 2
+                },
+                {
+                    "duration": 10,
+                    "sound": "14",
+                    "spriteIndex": 3
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 4
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 5
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 6
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 7
+                },
+                {
+                    "duration": 10,
+                    "sound": "1",
+                    "spriteIndex": 8
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 9
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 10
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 11
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 12
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 13
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 14
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 12
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 15
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 16
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 17
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 18
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 21,
+                    "spriteIndex": 19
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "LookRight": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 194
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 195
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 196
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 197
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 198
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "SendMail": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 361
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 362
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 363
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 364
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 365
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 366
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 367
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 368
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 369
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 370
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 371
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 372
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 373
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 374
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 375
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 376
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 377
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 378
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 379
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 380
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 381
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 24,
+                    "spriteIndex": 382
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 383
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 26,
+                    "spriteIndex": 384
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 385
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 27,
+                    "spriteIndex": 386
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 28,
+                    "spriteIndex": 387
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 29,
+                    "spriteIndex": 388
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 30,
+                    "spriteIndex": 389
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 31,
+                    "spriteIndex": 390
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 391
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 392
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 393
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 394
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 395
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 396
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 397
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 398
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 399
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 400
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 401
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 402
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 403
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 404
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 405
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 406
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 48,
+                    "spriteIndex": 407
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 49,
+                    "spriteIndex": 408
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 409
+                },
+                {
+                    "duration": 100,
+                    "sound": "4",
+                    "spriteIndex": 410
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 411
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 412
+                },
+                {
+                    "duration": 600,
+                    "spriteIndex": -1
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 413
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 414
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 415
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 416
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 417
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 418
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 419
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 420
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Thinking": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 28
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 29
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 30
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 31
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 32
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 33
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 34
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 35
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 36
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 37
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 38
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 39
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 40
+                },
+                {
+                    "duration": 100,
+                    "sound": "4",
+                    "spriteIndex": 41
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 42
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 43
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 44
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 45
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 46
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 47
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 48
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 49
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 50
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 51
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 52
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 53
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 54
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 55
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 56
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 57
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 58
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 33,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 21,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 59
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 60
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 61
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 62
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 35
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 34
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 33
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 32
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 31
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 30
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 29
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 28
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Explain": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 63
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 64
+                },
+                {
+                    "duration": 900,
+                    "spriteIndex": 65
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 64
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 63
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleRopePile": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 66
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 67
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 68
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 69
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 70
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 71
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 72
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 73
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 74
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 75
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 76
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 77
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 78
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 79
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 80
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 81
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 82
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 83
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 84
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 85
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 86
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 87
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 88
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 89
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 90
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 91
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 92
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 93
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 94
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 95
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 96
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 97
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 98
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 99
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 100
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 74,
+                    "spriteIndex": 101
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 102
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 40,
+                    "spriteIndex": 103
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 104
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 42,
+                    "spriteIndex": 105
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 106
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 44,
+                    "spriteIndex": 107
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 108
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 46,
+                    "spriteIndex": 109
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 110
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 48,
+                    "spriteIndex": 111
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 112
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 50,
+                    "spriteIndex": 113
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 114
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 52,
+                    "spriteIndex": 115
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 116
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 54,
+                    "spriteIndex": 117
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 118
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 56,
+                    "spriteIndex": 119
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 120
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 58,
+                    "spriteIndex": 121
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 122
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 123
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 124
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "spriteIndex": 125
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 61,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 126
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 61,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 67,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 65,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 127
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 63,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 128
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 61,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 67,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 63,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 129
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 65,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 130
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 61,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 65,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 63,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 129
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 67,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 131
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 65,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 67,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 63,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 129
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 70,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 61,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 132
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 133
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 134
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 135
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 136
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleAtom": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 44,
+                                "weight": 97
+                            }
+                        ]
+                    },
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 28
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 29
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 30
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 31
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 32
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 33
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 34
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 35
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 36
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 37
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 38
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 39
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 40
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 41
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 42
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 43
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 44
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 45
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 46
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 47
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 48
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 49
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 50
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 51
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 52
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 53
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 54
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 55
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 56
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 57
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 58
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 33,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 21,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 59
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 60
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 61
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 62
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 35
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 34
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 33
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 32
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 31
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 30
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 29
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 28
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Print": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 137
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 138
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 139
+                },
+                {
+                    "duration": 100,
+                    "sound": "5",
+                    "spriteIndex": 140
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 141
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 142
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 143
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 144
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 145
+                },
+                {
+                    "duration": 100,
+                    "sound": "8",
+                    "spriteIndex": 146
+                },
+                {
+                    "duration": 150,
+                    "spriteIndex": 147
+                },
+                {
+                    "duration": 100,
+                    "sound": "8",
+                    "spriteIndex": 148
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 149
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 150
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 151
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 152
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 153
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 154
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 155
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 156
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 157
+                },
+                {
+                    "duration": 450,
+                    "spriteIndex": 158
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 159
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 26,
+                    "spriteIndex": 160
+                },
+                {
+                    "duration": 100,
+                    "sound": "7",
+                    "spriteIndex": 161
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 28,
+                    "spriteIndex": 162
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 163
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 30,
+                    "spriteIndex": 164
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 165
+                },
+                {
+                    "duration": 600,
+                    "exitBranch": 32,
+                    "spriteIndex": 166
+                },
+                {
+                    "duration": 100,
+                    "sound": "7",
+                    "spriteIndex": 167
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 34,
+                    "spriteIndex": 168
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 169
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 36,
+                    "spriteIndex": 170
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 171
+                },
+                {
+                    "duration": 600,
+                    "exitBranch": 38,
+                    "spriteIndex": 172
+                },
+                {
+                    "duration": 100,
+                    "sound": "7",
+                    "spriteIndex": 173
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 40,
+                    "spriteIndex": 174
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 175
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 44,
+                    "spriteIndex": 176
+                },
+                {
+                    "duration": 600,
+                    "spriteIndex": 177
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 44,
+                    "sound": "7",
+                    "spriteIndex": 178
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 179
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 46,
+                    "spriteIndex": 180
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 181
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 48,
+                    "spriteIndex": 182
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 183
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 51,
+                    "spriteIndex": 184
+                },
+                {
+                    "duration": 600,
+                    "spriteIndex": 185
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 186
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 53,
+                    "spriteIndex": 187
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 188
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 189
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 190
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 191
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 58,
+                    "spriteIndex": 192
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 193
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Hide": {
+            "frames": [
+                {
+                    "duration": 10,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 20
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 21
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 22
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": -1
+                }
+            ]
+        },
+        "GetAttention": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 199
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 200
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 201
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 202
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 203
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 204
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 205
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 206
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 207
+                },
+                {
+                    "duration": 150,
+                    "spriteIndex": 208
+                },
+                {
+                    "duration": 150,
+                    "sound": "10",
+                    "spriteIndex": 207
+                },
+                {
+                    "duration": 150,
+                    "spriteIndex": 208
+                },
+                {
+                    "duration": 150,
+                    "sound": "10",
+                    "spriteIndex": 207
+                },
+                {
+                    "duration": 150,
+                    "spriteIndex": 209
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 210
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 211
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 212
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 213
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 214
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 215
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 216
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 23,
+                    "spriteIndex": 217
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Save": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 268
+                },
+                {
+                    "duration": 130,
+                    "sound": "13",
+                    "spriteIndex": 269
+                },
+                {
+                    "duration": 130,
+                    "spriteIndex": 270
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 271
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 272
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 273
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 10,
+                    "spriteIndex": 274
+                },
+                {
+                    "duration": 450,
+                    "spriteIndex": 275
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 10,
+                    "spriteIndex": 274
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 276
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 277
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 278
+                },
+                {
+                    "duration": 130,
+                    "sound": "8",
+                    "spriteIndex": 279
+                },
+                {
+                    "duration": 130,
+                    "spriteIndex": 280
+                },
+                {
+                    "duration": 130,
+                    "spriteIndex": 281
+                },
+                {
+                    "duration": 130,
+                    "sound": "8",
+                    "spriteIndex": 282
+                },
+                {
+                    "duration": 130,
+                    "sound": "8",
+                    "spriteIndex": 283
+                },
+                {
+                    "duration": 130,
+                    "spriteIndex": 284
+                },
+                {
+                    "duration": 130,
+                    "sound": "8",
+                    "spriteIndex": 285
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 286
+                },
+                {
+                    "duration": 100,
+                    "sound": "9",
+                    "spriteIndex": 287
+                },
+                {
+                    "duration": 160,
+                    "spriteIndex": 288
+                },
+                {
+                    "duration": 100,
+                    "sound": "2",
+                    "spriteIndex": 289
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 290
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 291
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 34,
+                    "spriteIndex": 292
+                },
+                {
+                    "duration": 450,
+                    "spriteIndex": 293
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 34,
+                    "sound": "10",
+                    "spriteIndex": 294
+                },
+                {
+                    "duration": 400,
+                    "spriteIndex": 295
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 34,
+                    "spriteIndex": 296
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 297
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 298
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 299
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 300
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 301
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 302
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 303
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 304
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 305
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 306
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GetTechy": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 28
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 29
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 30
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 31
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 32
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 33
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 34
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 35
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 36
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 37
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 38
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 39
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 40
+                },
+                {
+                    "duration": 100,
+                    "sound": "4",
+                    "spriteIndex": 41
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 42
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 43
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 44
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 45
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 46
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 47
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 48
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 49
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 50
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 51
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 52
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 53
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 54
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 55
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 56
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 57
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 58
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 33,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 21,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 59
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 60
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 61
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 62
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 35
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 34
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 33
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 32
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 31
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 30
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 29
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 28
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GestureUp": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 223
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 224
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 225
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 226
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 11,
+                    "spriteIndex": 227
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 228
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 5,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 229
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 230
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 231
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 232
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 227
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 226
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 225
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 224
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 223
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Idle1_1": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 37,
+                                "weight": 20
+                            }
+                        ]
+                    },
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 2,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 1,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 233
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 234
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 235
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 5,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 4,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 236
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 9,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 12,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 15,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 237
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 238
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 8,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 7,
+                                "weight": 94
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "spriteIndex": 239
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 240
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 241
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 11,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 10,
+                                "weight": 94
+                            },
+                            {
+                                "frameIndex": 8,
+                                "weight": 2
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 2
+                            }
+                        ]
+                    },
+                    "spriteIndex": 242
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 243
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 244
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 14,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 13,
+                                "weight": 93
+                            },
+                            {
+                                "frameIndex": 11,
+                                "weight": 3
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 2
+                            }
+                        ]
+                    },
+                    "spriteIndex": 245
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 246
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 247
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 17,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 16,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 248
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 36,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 36,
+                                "weight": 90
+                            }
+                        ]
+                    },
+                    "spriteIndex": 249
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 250
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 35,
+                    "spriteIndex": 251
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 252
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 253
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 23,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 22,
+                                "weight": 94
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "spriteIndex": 254
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 24,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 27,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 30,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 255
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 256
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 26,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 25,
+                                "weight": 94
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "spriteIndex": 257
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 258
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 259
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 29,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 28,
+                                "weight": 94
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "spriteIndex": 260
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 261
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 262
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 32,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 31,
+                                "weight": 94
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "spriteIndex": 263
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 264
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 265
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 35,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 34,
+                                "weight": 80
+                            }
+                        ]
+                    },
+                    "spriteIndex": 266
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 267
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 42,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 63
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 64
+                },
+                {
+                    "duration": 900,
+                    "spriteIndex": 65
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 64
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 63
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Processing": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 307
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 308
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 309
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 33,
+                    "spriteIndex": 310
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 311
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 312
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 313
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 314
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 31,
+                    "spriteIndex": 315
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 316
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 317
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 318
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 31,
+                    "spriteIndex": 319
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 320
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 321
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 322
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 323
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 324
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 325
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 326
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 327
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 328
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 329
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 330
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 331
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 332
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 28,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 7,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 333
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 334
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 335
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 336
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 337
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 338
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 339
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 340
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 341
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 342
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Alert": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 343
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 344
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 345
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 346
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 347
+                },
+                {
+                    "duration": 100,
+                    "sound": "6",
+                    "spriteIndex": 348
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 349
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 350
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 351
+                },
+                {
+                    "duration": 500,
+                    "exitBranch": 13,
+                    "spriteIndex": 352
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 13,
+                    "spriteIndex": 353
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 354
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 355
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 356
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 357
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 358
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 359
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 360
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "LookUpRight": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 218
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 219
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 220
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 221
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 222
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleSideToSide": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 2,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 1,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 233
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 234
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 235
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 5,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 4,
+                                "weight": 95
+                            }
+                        ]
+                    },
+                    "spriteIndex": 236
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 9,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 12,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 15,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 237
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 238
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 8,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 7,
+                                "weight": 92
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "spriteIndex": 239
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 240
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 241
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 11,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 10,
+                                "weight": 91
+                            },
+                            {
+                                "frameIndex": 8,
+                                "weight": 5
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 2
+                            }
+                        ]
+                    },
+                    "spriteIndex": 242
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 243
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 244
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 14,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 13,
+                                "weight": 91
+                            },
+                            {
+                                "frameIndex": 11,
+                                "weight": 3
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 2
+                            }
+                        ]
+                    },
+                    "spriteIndex": 245
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 246
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 247
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 17,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 16,
+                                "weight": 75
+                            }
+                        ]
+                    },
+                    "spriteIndex": 248
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 36,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 36,
+                                "weight": 90
+                            }
+                        ]
+                    },
+                    "spriteIndex": 249
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 250
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 35,
+                    "spriteIndex": 251
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 252
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 253
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 23,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 22,
+                                "weight": 91
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "spriteIndex": 254
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 24,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 27,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 30,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 255
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 256
+                },
+                {
+                    "duration": 0,
+                    "exitBranch": 26,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 25,
+                                "weight": 91
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "spriteIndex": 257
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 258
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 259
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 29,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 28,
+                                "weight": 91
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "spriteIndex": 260
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 261
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 262
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 32,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 31,
+                                "weight": 91
+                            },
+                            {
+                                "frameIndex": 23,
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "spriteIndex": 263
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 35,
+                    "spriteIndex": 264
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 265
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 35,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 34,
+                                "weight": 80
+                            }
+                        ]
+                    },
+                    "spriteIndex": 266
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 267
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GoodBye": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 34,
+                    "sound": "15",
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 34,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 856
+                },
+                {
+                    "duration": 250,
+                    "spriteIndex": 857
+                },
+                {
+                    "duration": 100,
+                    "sound": "13",
+                    "spriteIndex": 858
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 859
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 860
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 861
+                },
+                {
+                    "duration": 100,
+                    "sound": "12",
+                    "spriteIndex": 862
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 863
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 864
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 865
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 866
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 867
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 868
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 869
+                },
+                {
+                    "duration": 200,
+                    "sound": "10",
+                    "spriteIndex": 870
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 869
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 871
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 872
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 873
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 874
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 875
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 876
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 877
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 878
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 879
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 880
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 881
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 882
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 883
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 884
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 885
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 886
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 37,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 37,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 887
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 415
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 414
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 413
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": -1
+                }
+            ]
+        },
+        "LookLeft": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 434
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 435
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 436
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 437
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 438
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleHeadScratch": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 18,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 718
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 719
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 720
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 721
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 722
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 723
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 724
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 725
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 726
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 6,
+                                "weight": 80
+                            }
+                        ]
+                    },
+                    "spriteIndex": 727
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 728
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 729
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 730
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 731
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 732
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 12,
+                                "weight": 80
+                            }
+                        ]
+                    },
+                    "spriteIndex": 733
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 734
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 735
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 736
+                }
+            ]
+        },
+        "LookUpLeft": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 439
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 440
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 441
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 442
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 443
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "CheckingSomething": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "sound": "13",
+                    "spriteIndex": 444
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 445
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 446
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 447
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 448
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 449
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 450
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 451
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 452
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 453
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 454
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 52,
+                    "spriteIndex": 455
+                },
+                {
+                    "duration": 140,
+                    "spriteIndex": 456
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 457
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 458
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 459
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 460
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 461
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 462
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 463
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 22,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 21,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 464
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 465
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 466
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 25,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 24,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 467
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 468
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 469
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 470
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 29,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 28,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 471
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 472
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 473
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 32,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 31,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 474
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 475
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 476
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 477
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 478
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 37,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 36,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 479
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 480
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 481
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 40,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 39,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 482
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 483
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 50,
+                    "spriteIndex": 484
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 14,
+                                "weight": 75
+                            }
+                        ]
+                    },
+                    "spriteIndex": 485
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 486
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 51,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 44,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 487
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 488
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 489
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 490
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 49,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 48,
+                                "weight": 85
+                            }
+                        ]
+                    },
+                    "spriteIndex": 491
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 492
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 52,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 10,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 493
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 494
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 495
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 496
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Hearing_1": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 343
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 344
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 345
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 346
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 347
+                },
+                {
+                    "duration": 100,
+                    "sound": "6",
+                    "spriteIndex": 348
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 349
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 350
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 351
+                },
+                {
+                    "duration": 500,
+                    "exitBranch": 32,
+                    "spriteIndex": 352
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 6,
+                                "weight": 60
+                            }
+                        ]
+                    },
+                    "spriteIndex": 497
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 348
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 349
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 350
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 351
+                },
+                {
+                    "duration": 500,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 12,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 497
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 498
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 499
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 500
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 501
+                },
+                {
+                    "duration": 400,
+                    "exitBranch": 32,
+                    "spriteIndex": 502
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 18,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 503
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 504
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 505
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 506
+                },
+                {
+                    "duration": 500,
+                    "exitBranch": 32,
+                    "spriteIndex": 507
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 17,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 508
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "spriteIndex": 509
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 510
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 32,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 12,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 353
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 354
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 355
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 356
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 357
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 358
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 359
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 360
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GetWizardy": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 1
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 2
+                },
+                {
+                    "duration": 10,
+                    "sound": "14",
+                    "spriteIndex": 3
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 4
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 5
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 6
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 7
+                },
+                {
+                    "duration": 10,
+                    "sound": "1",
+                    "spriteIndex": 8
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 9
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 10
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 11
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 12
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 13
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 14
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 12
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 15
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 16
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 17
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 18
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 21,
+                    "spriteIndex": 19
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleFingerTap": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 888
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 889
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 8,
+                    "spriteIndex": 890
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 8,
+                    "spriteIndex": 891
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 7,
+                                "weight": 3
+                            }
+                        ]
+                    },
+                    "spriteIndex": 892
+                },
+                {
+                    "duration": 150,
+                    "exitBranch": 7,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 6,
+                                "weight": 98
+                            },
+                            {
+                                "frameIndex": 5,
+                                "weight": 2
+                            }
+                        ]
+                    },
+                    "spriteIndex": 893
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 8,
+                    "spriteIndex": 894
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 895
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 896
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GestureLeft": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 511
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 512
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 513
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 12,
+                    "spriteIndex": 514
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 515
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 4,
+                                "weight": 60
+                            }
+                        ]
+                    },
+                    "spriteIndex": 516
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 517
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 518
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 519
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 520
+                },
+                {
+                    "duration": 450,
+                    "spriteIndex": 521
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 513
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 512
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 511
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Wave": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 15,
+                                "weight": 33
+                            }
+                        ]
+                    },
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 522
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 523
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 13,
+                    "spriteIndex": 524
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 13,
+                    "spriteIndex": 525
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 13,
+                    "spriteIndex": 526
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 9,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 527
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 11,
+                    "sound": "10",
+                    "spriteIndex": 528
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 529
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 11,
+                    "sound": "10",
+                    "spriteIndex": 530
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 531
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 532
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 533
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 534
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 26,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 26,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 535
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 536
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 537
+                },
+                {
+                    "duration": 100,
+                    "sound": "12",
+                    "spriteIndex": 538
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 539
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 540
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 24,
+                    "sound": "10",
+                    "spriteIndex": 541
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 542
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 24,
+                    "sound": "10",
+                    "spriteIndex": 543
+                },
+                {
+                    "duration": 1300,
+                    "spriteIndex": 542
+                },
+                {
+                    "duration": 50,
+                    "spriteIndex": 544
+                },
+                {
+                    "duration": 50,
+                    "spriteIndex": 537
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GestureRight": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 545
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 546
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 547
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 548
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 11,
+                    "spriteIndex": 549
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 550
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 5,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 551
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 552
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 553
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 554
+                },
+                {
+                    "duration": 550,
+                    "spriteIndex": 549
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 548
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 547
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 546
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 545
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Writing": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 555
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 556
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 557
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 558
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 559
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 560
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 561
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 562
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 563
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 564
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 565
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 26,
+                                "weight": 45
+                            },
+                            {
+                                "frameIndex": 32,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 42,
+                                "weight": 15
+                            }
+                        ]
+                    },
+                    "spriteIndex": 566
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "spriteIndex": 567
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "spriteIndex": 568
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 569
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 570
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 55,
+                    "spriteIndex": 571
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 572
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 573
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 55,
+                    "spriteIndex": 574
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 575
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 576
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 55,
+                    "spriteIndex": 577
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 578
+                },
+                {
+                    "duration": 200,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 32,
+                                "weight": 20
+                            },
+                            {
+                                "frameIndex": 42,
+                                "weight": 15
+                            }
+                        ]
+                    },
+                    "spriteIndex": 579
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 56,
+                    "spriteIndex": 580
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 581
+                },
+                {
+                    "duration": 400,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 28,
+                                "weight": 80
+                            }
+                        ]
+                    },
+                    "spriteIndex": 582
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 30,
+                    "spriteIndex": 583
+                },
+                {
+                    "duration": 400,
+                    "exitBranch": 55,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 30,
+                                "weight": 75
+                            }
+                        ]
+                    },
+                    "spriteIndex": 584
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 13,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 42,
+                                "weight": 20
+                            }
+                        ]
+                    },
+                    "spriteIndex": 585
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 586
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 587
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 588
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 54,
+                    "spriteIndex": 589
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 590
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 54,
+                    "spriteIndex": 591
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 592
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 593
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 55,
+                    "spriteIndex": 594
+                },
+                {
+                    "duration": 200,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 13,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 26,
+                                "weight": 25
+                            },
+                            {
+                                "frameIndex": 32,
+                                "weight": 25
+                            }
+                        ]
+                    },
+                    "spriteIndex": 595
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 596
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "spriteIndex": 597
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 598
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 599
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 600
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 601
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 602
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 603
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 604
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 605
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 57,
+                    "spriteIndex": 606
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 26,
+                                "weight": 33
+                            },
+                            {
+                                "frameIndex": 32,
+                                "weight": 33
+                            },
+                            {
+                                "frameIndex": 13,
+                                "weight": 34
+                            }
+                        ]
+                    },
+                    "spriteIndex": 607
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 608
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 609
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 610
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 611
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 612
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 613
+                },
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleSnooze": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 614
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 615
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 616
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 617
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 618
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 619
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 620
+                },
+                {
+                    "duration": 400,
+                    "spriteIndex": 621
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 622
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 623
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 624
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 625
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 626
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 627
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 628
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 629
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 20,
+                    "spriteIndex": 630
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 631
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 632
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 23,
+                    "spriteIndex": 633
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 634
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 635
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 26,
+                    "spriteIndex": 636
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 637
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 638
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 639
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 640
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 641
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 642
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 643
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 644
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 645
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 646
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 647
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 648
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 649
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 27,
+                                "weight": 90
+                            },
+                            {
+                                "frameIndex": 46,
+                                "weight": 5
+                            },
+                            {
+                                "frameIndex": 52,
+                                "weight": 5
+                            }
+                        ]
+                    },
+                    "spriteIndex": 650
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 651
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 652
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 653
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 654
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 655
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 656
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 657
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 658
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 659
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 660
+                },
+                {
+                    "duration": 400,
+                    "spriteIndex": 661
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 662
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 663
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 664
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 665
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 666
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 667
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 668
+                },
+                {
+                    "duration": 600,
+                    "spriteIndex": 669
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 83,
+                    "spriteIndex": 670
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 83,
+                    "spriteIndex": 671
+                },
+                {
+                    "duration": 300,
+                    "exitBranch": 60,
+                    "spriteIndex": 672
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 673
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 674
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 675
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 676
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 677
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 678
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 679
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 680
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 681
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 682
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 683
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 684
+                },
+                {
+                    "duration": 200,
+                    "spriteIndex": 685
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 83,
+                    "spriteIndex": 686
+                },
+                {
+                    "duration": 200,
+                    "exitBranch": 75,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 69,
+                                "weight": 20
+                            }
+                        ]
+                    },
+                    "spriteIndex": 687
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 688
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 689
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 690
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 691
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 83,
+                    "spriteIndex": 692
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 693
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 694
+                },
+                {
+                    "duration": 300,
+                    "spriteIndex": 695
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 696
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 697
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 698
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 699
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "LookDownRight": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 700
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 701
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 702
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 703
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 704
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GetArtsy": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 705
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 706
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 707
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 708
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 709
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 710
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 711
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 712
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 713
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 714
+                },
+                {
+                    "duration": 400,
+                    "spriteIndex": 715
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 716
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 717
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 715
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 716
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 717
+                },
+                {
+                    "duration": 2400,
+                    "spriteIndex": 715
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 708
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 707
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 706
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 22,
+                    "spriteIndex": 705
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Show": {
+            "frames": [
+                {
+                    "duration": 10,
+                    "spriteIndex": -1
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 22
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 21
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 20
+                },
+                {
+                    "duration": 10,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "LookDown": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 23
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 24
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 25
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 26
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 27
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Searching": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 737
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 738
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 739
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 740
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 741
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 742
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 743
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 744
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 745
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 746
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 747
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 748
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 749
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 750
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 751
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 752
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 753
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 754
+                },
+                {
+                    "duration": 800,
+                    "exitBranch": 55,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 19,
+                                "weight": 40
+                            }
+                        ]
+                    },
+                    "spriteIndex": 755
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "spriteIndex": 756
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 755
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 757
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 758
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 759
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 760
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 761
+                },
+                {
+                    "duration": 1000,
+                    "exitBranch": 54,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 27,
+                                "weight": 65
+                            }
+                        ]
+                    },
+                    "spriteIndex": 762
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 763
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 764
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 765
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 766
+                },
+                {
+                    "duration": 500,
+                    "exitBranch": 33,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 32,
+                                "weight": 75
+                            }
+                        ]
+                    },
+                    "spriteIndex": 767
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 34,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 32,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 768
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 767
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 769
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 770
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 771
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "spriteIndex": 772
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 773
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 19,
+                                "weight": 20
+                            },
+                            {
+                                "frameIndex": 40,
+                                "weight": 80
+                            }
+                        ]
+                    },
+                    "spriteIndex": 774
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 775
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 776
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 777
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 778
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 779
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 780
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 781
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 48,
+                                "weight": 75
+                            }
+                        ]
+                    },
+                    "spriteIndex": 782
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 783
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 784
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 783
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 782
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 55,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 49,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 785
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 28,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 786
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 787
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 788
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 789
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 790
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 791
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "EmptyTrash": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "sound": "15",
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 792
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 793
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 794
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 795
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 796
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 797
+                },
+                {
+                    "duration": 100,
+                    "sound": "3",
+                    "spriteIndex": 798
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 799
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 800
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 801
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 802
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 16,
+                    "spriteIndex": 803
+                },
+                {
+                    "duration": 100,
+                    "sound": "3",
+                    "spriteIndex": 804
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 805
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 806
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 23,
+                    "spriteIndex": 807
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 808
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 809
+                },
+                {
+                    "duration": 100,
+                    "sound": "3",
+                    "spriteIndex": 810
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 811
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 812
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 813
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 29,
+                    "spriteIndex": 814
+                },
+                {
+                    "duration": 100,
+                    "sound": "3",
+                    "spriteIndex": 815
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 816
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 817
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 818
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 819
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 31,
+                    "sound": "3",
+                    "spriteIndex": 820
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 821
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 822
+                },
+                {
+                    "duration": 900,
+                    "spriteIndex": -1
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 413
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 414
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 415
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 416
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 417
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 418
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 419
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 420
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "Greeting": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 30,
+                                "weight": 40
+                            }
+                        ]
+                    },
+                    "sound": "15",
+                    "spriteIndex": -1
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 823
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 824
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 825
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 826
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 827
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 828
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 829
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 830
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 831
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 832
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 833
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 834
+                },
+                {
+                    "duration": 100,
+                    "sound": "14",
+                    "spriteIndex": 835
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 836
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 837
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 838
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 839
+                },
+                {
+                    "duration": 300,
+                    "spriteIndex": 840
+                },
+                {
+                    "duration": 100,
+                    "sound": "10",
+                    "spriteIndex": 841
+                },
+                {
+                    "duration": 450,
+                    "spriteIndex": 840
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 842
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 843
+                },
+                {
+                    "duration": 100,
+                    "sound": "12",
+                    "spriteIndex": 844
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 845
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 846
+                },
+                {
+                    "duration": 100,
+                    "sound": "4",
+                    "spriteIndex": 847
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 848
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 849
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 38,
+                                "weight": 100
+                            }
+                        ]
+                    },
+                    "spriteIndex": 850
+                },
+                {
+                    "duration": 100,
+                    "sound": "11",
+                    "spriteIndex": 413
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 414
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 415
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 416
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 417
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 418
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 419
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 38,
+                    "spriteIndex": 420
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "LookUp": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 851
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 852
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 853
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 854
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 855
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "GestureDown": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 421
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 422
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 423
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 424
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 14,
+                    "spriteIndex": 425
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 426
+                },
+                {
+                    "duration": 100,
+                    "branching": {
+                        "branches": [
+                            {
+                                "frameIndex": 5,
+                                "weight": 50
+                            }
+                        ]
+                    },
+                    "spriteIndex": 427
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 428
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 429
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 14,
+                    "spriteIndex": 430
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 431
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 432
+                },
+                {
+                    "duration": 450,
+                    "spriteIndex": 433
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 424
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 423
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 422
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 421
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "RestPose": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "IdleEyeBrowRaise": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 63
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 64
+                },
+                {
+                    "duration": 900,
+                    "spriteIndex": 65
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 64
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 63
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        },
+        "LookDownLeft": {
+            "frames": [
+                {
+                    "duration": 100,
+                    "exitBranch": 6,
+                    "spriteIndex": 0
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 5,
+                    "spriteIndex": 897
+                },
+                {
+                    "duration": 100,
+                    "exitBranch": 4,
+                    "spriteIndex": 898
+                },
+                {
+                    "duration": 1200,
+                    "spriteIndex": 899
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 900
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 901
+                },
+                {
+                    "duration": 100,
+                    "spriteIndex": 0
+                }
+            ]
+        }
+    }
+}
