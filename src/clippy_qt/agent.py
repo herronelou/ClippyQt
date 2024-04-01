@@ -7,7 +7,6 @@ import random
 import json
 
 
-
 class Agent(QtWidgets.QWidget):
 
     started = QtCore.Signal()
@@ -51,7 +50,7 @@ class Agent(QtWidgets.QWidget):
         self.init_ui()
 
     def init_ui(self):
-        """"""
+        """ Initialize the widget """
         self._timer.timeout.connect(self._next_frame)
         self._timer.setSingleShot(True)
 
@@ -59,7 +58,7 @@ class Agent(QtWidgets.QWidget):
         self._idle_timer.setSingleShot(True)
 
     def animations(self):
-        """"""
+        """ Return a list of available animations. """
         return self._config['animations'].keys()
 
     def play(self, animation, right_now=False, callback=None):
@@ -85,7 +84,7 @@ class Agent(QtWidgets.QWidget):
             self._queue.append((animation, callback))
 
     def play_random_idle(self):
-        """"""
+        """ Play a random idle animation. """
         idle_animations = [name for name in self._config['animations'] if name.startswith('Idle')]
         anim = random.choice(idle_animations)
         print('Playing idle:', anim)
@@ -126,7 +125,7 @@ class Agent(QtWidgets.QWidget):
             self._stopping = True
 
     def _next_frame(self):
-        """"""
+        """ Advance to the next frame in the current animation. """
         if self._current_animation is None:
             return
 
@@ -183,7 +182,8 @@ class Agent(QtWidgets.QWidget):
         if self._current_callback:
             self._current_callback()
             self._current_callback = None
-        self._idle_timer.start(random.randint(5000, 15000))
+        if self.isVisible():
+            self._idle_timer.start(random.randint(5000, 15000))
         if self._queue:
             self._play_next_in_queue()
 
@@ -203,11 +203,11 @@ class Agent(QtWidgets.QWidget):
         self._play(animation, callback=callback)
 
     def _queue_next_frame(self):
-        """"""
+        """ Queue the next frame in the animation. """
         self._timer.start(self._current_animation['frames'][self._current_frame]['duration'])
 
     def _load_frames(self):
-        """"""
+        """ Load the frames from the sprite sheet. """
         self._frames = []
         pixmap = QtGui.QPixmap(self._sprite)
         columns = pixmap.width() // self._tile_width
@@ -218,7 +218,7 @@ class Agent(QtWidgets.QWidget):
                 self._frames.append(frame)
 
     def _preload_sounds(self, sounds):
-        """"""
+        """ Preload the sounds. """
         if not sounds:
             self.play_sounds = False
             return
@@ -230,7 +230,7 @@ class Agent(QtWidgets.QWidget):
             self._sounds[sound_name] = QtMultimedia.QSound(os.path.join(sounds, wav_file))
 
     def _play_sound(self):
-        """"""
+        """ Play a sound if the current frame has one. """
         if not self.play_sounds:
             return
         if 'sound' in self._current_animation['frames'][self._current_frame]:
@@ -238,7 +238,7 @@ class Agent(QtWidgets.QWidget):
             self._sounds[sound_name].play()
 
     def _get_direction(self, position, granular=True):
-        """"""
+        """ Get a direction based on a position on the screen. """
         print('position:', position, self.mapToGlobal(self.rect().center()))
         direction = position - self.mapToGlobal(self.rect().center())
         print('direction:', direction)
@@ -272,7 +272,7 @@ class Agent(QtWidgets.QWidget):
                 return 'Up'
 
     def paintEvent(self, _event):
-        """"""
+        """ Draw the current frame."""
 
         painter = QtGui.QPainter(self)
         if not self._current_animation:
@@ -283,11 +283,5 @@ class Agent(QtWidgets.QWidget):
         painter.end()
 
     def sizeHint(self):
-        """"""
+        """ Return the size hint for the widget. """
         return QtCore.QSize(self._tile_width, self._tile_height)
-
-
-
-
-
-

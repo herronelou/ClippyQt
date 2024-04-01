@@ -40,6 +40,6 @@ def get_clippy_palette():
     palette.setColor(palette.Disabled, palette.HighlightedText, QtGui.QColor(127, 127, 127))
 
     # all
-    palette.setColor(palette.All, palette.Mid, QtGui.QColor(235, 235, 184))
+    palette.setColor(palette.All, palette.Mid, QtGui.QColor(235, 235, 184))  # For Nuke's text shadow
 
     return palette

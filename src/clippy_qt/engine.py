@@ -69,6 +69,8 @@ class ClippyEngine(QtWidgets.QDialog):
         if not self._mouse_pressed:
             event.ignore()
         self._mouse_pressed = False
+        if self._old_pos is not None:
+            self.agent.look_at(self._old_pos)
         self._old_pos = None
         self._old_rect = None
 

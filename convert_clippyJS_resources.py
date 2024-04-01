@@ -67,10 +67,6 @@ def convert_audio_resources(source, target):
         os.remove(temp_path)
 
 
-
-
-
-
 if __name__ == '__main__':
     # convert_clippy_js_config(r'C:\Users\herro\repos\ClippyQt\agents\Clippy.js',
     #                          r'C:\Users\herro\repos\ClippyQt\agents\Clippy\config.json', 3348)
